@@ -1,0 +1,14 @@
+/////はにわまんさんの/////
+///////https://haniwaman.com/calc////////////
+
+//3の倍数はマージン０にしたい
+.item:nth-child(3n) {
+    margin-right: 0;
+}
+
+//３つのアイテムを横並びにし、アイテム幅を均等に計算したい
+.item {
+  margin: 0 50px 50px 0;
+  width: calc(33.3333333% - 100px / 3);
+}
+
