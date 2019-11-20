@@ -35,4 +35,9 @@ Modifierは、BlockやElementに対するフラグのようなものです。
 <div class=“block—modifier”>・・・</div> // ×
 
 
+また、- が一つの場合は単語区切りで、 - が二つの場合は modifier なので混合しないようにしましょう。
+modifierはblock に対しても element に対しても追加することができます。
+
+
+
 
