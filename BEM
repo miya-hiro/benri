@@ -1,0 +1,38 @@
+FLOCCSを取り入れたBEMの書き方
+
+<section class="p-about">
+  <div class="c-inner">
+    <h1 class="c-ttl">このサイトについて</h1>
+    <div class="p-about__item">
+      <p class="p-about__item-ttl">タイトル</p>
+      <p class="p-about__item-txt">テキスト</p>
+    </div>
+    <div class="p-about__item">
+      <p class="p-about__item-ttl">タイトル</p>
+      <p class="p-about__item-txt">テキスト</p>
+    </div>
+  </div>
+</section>
+
+
+・・・・・・・・・・・・・・・・・・・・・　　BEMとは？　・・・・・・・・・・・・・・・・・・・
+
+Blockとは、独立した意味の塊で、もう少しざっくり言えば親要素となります。
+Elementは、Blockの中に含まれるパーツのことで、Blockに対する子要素ということもできます。
+
+Modifierは、BlockやElementに対するフラグのようなものです。
+
+<div class=“block”>
+　　<span class=“block__element”>Home</span>
+　　<span class=“block__element”>Menu</span>
+</div>
+
+
+「.block—modifier」のようにBlockにつくこともあれば、
+「.block__element--modifier」のようにElementにつくこともあります。
+
+・・・・・・・・・・・・・・・・　　modifireだけを単独マーキングしてはいけない　　・・・・・・・・・・・・・・・
+<div class=“block—modifier”>・・・</div> // ×
+
+
+
