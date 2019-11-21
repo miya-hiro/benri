@@ -1,0 +1,79 @@
+////// style //////    
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.wrapper > table {
+  width: 80%;
+  text-align: center;
+  border-collapse: collapse;
+  line-height: 100%;
+  font-size: 16px;
+}
+.wrapper > table th{
+  font-weight: normal;
+  padding: 10px;
+  line-height: 28.8px;
+  background: #f6ffe4;
+
+
+}
+
+////////  html  //////////
+   
+    <div class="wrapper">
+      <table border="1" bordercolor="#ccc">
+        <tr class="tableTitle">
+          <th>診療時間</th>
+          <th>担当医</th>
+          <th>月</th>
+          <th>火</th>
+          <th>水</th>
+          <th>木</th>
+          <th>金</th>
+          <th>土</th>
+        </tr>
+        <tr>
+          <th rowspan="2">09:00-12:00</th>
+          <th>東　良治</th>
+          <td>○</td>
+          <td>○</td>
+          <td>○</td>
+          <td>○</td>
+          <td>○</td>
+          <td>○</td>
+        </tr>
+        <tr>
+          <th>道明　幸治</th>
+          <td>○</td>
+          <td>○</td>
+          <td>-</td>
+          <td>○</td>
+          <td>○</td>
+          <td>-</td>
+        </tr>
+        <tr>
+            <th rowspan="2">14:30-19:00</th>
+            <th>東　良治</th>
+            <td>○</td>
+            <td>○</td>
+            <td>-</td>
+            <td>○</td>
+            <td>○</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <th>道明　幸治</th>
+            <td>○</td>
+            <td>○</td>
+            <td>-</td>
+            <td>○</td>
+            <td>○</td>
+            <td>-</td>
+          </tr>
+      </table>
+      <div>診察へはお早めにおこしくださいね</div>
+    </div>
