@@ -1,0 +1,59 @@
+<ul class="flex_table">
+  <li class="tableTitle">
+    <ul>
+      <li class="tableItem">項目１</li>
+      <li class="tableItem">項目２</li>
+      <li class="tableItem">項目３</li>
+      <li class="tableItem">項目４</li>
+      <li class="tableItem">項目５</li>
+    </ul>
+  </li>
+  <li class="tableText">
+    <ul>
+      <li>データ1-1</li>
+      <li>データ2-1</li>
+      <li>データ3-1</li>
+      <li>データ4-1</li>
+      <li>データ5-1</li>
+    </ul>
+  </li>
+</ul>
+
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.flex_table {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  border: 1px solid #999;
+}
+.tableTitle {
+  width: 20%;
+  text-align: center;
+  background: pink;
+}
+.tableItem {
+  padding: 10px;
+  border-bottom: 1px solid #999;
+}
+.tableItem:last-child {
+  border-bottom: none;
+}
+.tableText {
+  width: 80%;
+  border-left: 1px solid #999;
+}
+.tableText > ul > li {
+  padding: 10px;
+  border-bottom: 1px solid #999;
+}
+
+.tableText > ul > li:last-child {
+  border-bottom: none;
+}
