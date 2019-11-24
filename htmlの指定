@@ -1,3 +1,18 @@
+ヘッダーナビ　a{
+  color: #777;
+}
+
+ヘッダーナビのボーダー　{
+  border-right: #646464;
+}
+
+フッターナビの左線 {
+border-left: rgb(204, 204, 204);
+}
+
+
+
+
 html {
   font-size:10px;
 }
@@ -29,6 +44,6 @@ ruby {
   margin-b0ttom: -8px;
   
 }  
-©道明歯科医院　{
+©歯科医院　{
   font-size: 1.3rem;
 }
