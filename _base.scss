@@ -1,0 +1,30 @@
+@charset "UTF-8";
+html, body {
+  width: 100%;
+  color: $font-color_default;
+  font-size: $font-size_default;
+  line-height: 1.6;
+  font-family:  serif, "ヒラギQuicksand"; // T"Hannari", 'Sawarabi Mincho',は文字間隔がつぶれる！！
+  text-size-adjust: 100%;
+  letter-spacing: 0.1em;
+}
+
+p, a {
+  -webkit-font-smoothing: antialiased; //antialiasedは少し細身でなめらか、色が薄くなっています。
+}
+
+a {
+  color: $font-color_default;
+  text-decoration: none;
+  transition: .3s;
+}
+
+a:hover {
+  color: $color_corp;
+  transition: .3s;
+}
+
+img {
+  width: 100%;
+  vertical-align: bottom; //下端揃え!!!!!!!!
+}
