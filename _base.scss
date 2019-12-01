@@ -28,3 +28,17 @@ img {
   width: 100%;
   vertical-align: bottom; //下端揃え!!!!!!!!
 }
+
+
+//////// style.scss ではこう読み込む ////////////
+
+
+/**
+* Foundation
+* ========================== */
+// @import "foundation/**";
+@import "foundation/_reset";
+@import "foundation/_hensu";
+@import "foundation/_mixin";
+@import "foundation/_base";
+
