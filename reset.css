@@ -62,6 +62,9 @@ a {
     vertical-align:baseline;
     background:transparent;
 }
+a :hover {
+    cursor: pointer;
+}
 
 /* change colours to suit your needs */
 ins {
@@ -100,4 +103,12 @@ hr {
 
 input, select,textarea {
     vertical-align:middle;
+}
+
+button {
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
 }
