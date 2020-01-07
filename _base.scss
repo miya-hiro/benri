@@ -1,8 +1,8 @@
 @charset "UTF-8";
 html, body {
   width: 100%;
-  color: $font-color_default;
-  font-size: $font-size_default;
+  color: #333333;
+  font-size: 62.5%;;
   line-height: 1.6;
   font-family:  serif, "ヒラギQuicksand"; // T"Hannari", 'Sawarabi Mincho',は文字間隔がつぶれる！！
   text-size-adjust: 100%;
@@ -14,7 +14,7 @@ p, a {
 }
 
 a {
-  color: $font-color_default;
+  color: #333333;
   text-decoration: none;
   transition: .3s;
 }
